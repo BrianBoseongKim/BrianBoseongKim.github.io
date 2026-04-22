@@ -253,6 +253,7 @@ body {
 
 .platform-image img {
   width: 100%;
+  max-width: 420px;   /* 🔥 이거 추가 */
   display: block;
   border-radius: 8px;
 }
