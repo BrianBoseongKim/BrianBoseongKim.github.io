@@ -38,9 +38,8 @@ body {
 
 .profile-image img {
   width: 420px;
-  height: 420px;
+  height: 300px;
   object-fit: cover;
-  display: block;
   border-radius: 8px;
 }
 
