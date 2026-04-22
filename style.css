@@ -113,14 +113,13 @@ body {
 }
 
 .hero-video {
-  margin: 28px auto 18px;
-  max-width: 980px;
+  margin: 30px 0 20px;
 }
 
 .hero-video video {
   width: 100%;
-  height: auto;
+  height: 420px;
+  object-fit: cover;
   display: block;
   border-radius: 10px;
-  background: #ddd;
 }
