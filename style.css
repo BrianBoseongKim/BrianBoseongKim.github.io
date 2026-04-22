@@ -250,10 +250,9 @@ body {
   align-items: center;
   margin-bottom: 36px;
 }
-
 .platform-image img {
-  width: 100%;
-  max-width: 360px;   /* 🔥 이거 추가 */
+  width: 360px;   /* 🔥 강제 고정 */
+  height: auto;
   display: block;
   border-radius: 8px;
 }
