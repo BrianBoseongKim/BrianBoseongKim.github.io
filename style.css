@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background: #f7f7f7;
+  color: #222;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 48px;
+  background: #f7f7f7;
+}
+
+.navbar .logo {
+  font-size: 22px;
+}
+
+.navbar nav a {
+  margin-left: 24px;
+  text-decoration: none;
+  color: #444;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+
+.hero {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.profile-image img {
+  width: 420px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.intro h1 {
+  font-size: 54px;
+  margin: 0 0 12px;
+  color: #455a64;
+}
+
+.intro h2 {
+  font-size: 28px;
+  margin: 0 0 24px;
+}
+
+.intro p {
+  font-size: 22px;
+  line-height: 1.7;
+  margin: 12px 0;
+}
+
+.links a {
+  margin-right: 16px;
+}
+
+.about {
+  margin-top: 60px;
+}
+
+.about p {
+  font-size: 22px;
+  line-height: 1.9;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .navbar nav a {
+    margin-left: 0;
+    margin-right: 16px;
+  }
+
+  .intro h1 {
+    font-size: 38px;
+  }
+
+  .intro p,
+  .about p {
+    font-size: 18px;
+  }
+}
