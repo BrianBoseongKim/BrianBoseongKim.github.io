@@ -250,10 +250,15 @@ body {
   align-items: center;
   margin-bottom: 36px;
 }
+.platform-image {
+  display: flex;
+  justify-content: center;
+}
+
 .platform-image img {
   width: 360px;
-  height: 240px;        /* 🔥 높이도 맞춤 */
-  object-fit: cover;    /* 🔥 비율 유지하면서 채움 */
+  height: auto;
+  display: block;
   border-radius: 8px;
 }
 
