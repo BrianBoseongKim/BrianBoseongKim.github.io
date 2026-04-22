@@ -238,3 +238,55 @@ body {
     font-size: 18px;
   }
 }
+/* ===== ROBOTICS PLATFORMS PAGE ===== */
+.platform-page {
+  padding-top: 10px;
+}
+
+.platform-item {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: 28px;
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+.platform-image img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.platform-content h2 {
+  font-size: 26px;
+  line-height: 1.4;
+  margin: 0 0 10px;
+  color: #222;
+}
+
+.platform-content ul {
+  margin: 0;
+  padding-left: 22px;
+}
+
+.platform-content li {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 900px) {
+  .platform-item {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+
+  .platform-content h2 {
+    font-size: 22px;
+  }
+
+  .platform-content li {
+    font-size: 17px;
+  }
+}
