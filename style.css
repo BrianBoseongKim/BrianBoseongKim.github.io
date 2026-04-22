@@ -122,4 +122,5 @@ body {
   object-fit: cover;
   display: block;
   border-radius: 10px;
+  filter: contrast(1.05) brightness(0.95);
 }
