@@ -123,36 +123,6 @@ body {
   text-decoration: underline;
 }
 
-@media (max-width: 900px) {
-  .hero {
-    flex-direction: column;
-  }
-
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
-
-  .navbar nav a {
-    margin-left: 0;
-    margin-right: 14px;
-    font-size: 18px;
-  }
-
-  .navbar .logo {
-    font-size: 26px;
-  }
-
-  .intro h1 {
-    font-size: 38px;
-  }
-
-  .intro p,
-  .about p {
-    font-size: 18px;
-  }
-}
 /* ===== PROJECT PAGE ===== */
 .project-page {
   padding-top: 10px;
@@ -198,9 +168,10 @@ body {
   color: #333;
 }
 
+/* 🔥 여기만 수정됨 */
 .project-content p {
-  font-size: 21px;
-  line-height: 1.8;
+  font-size: 19px;
+  line-height: 1.7;
   margin: 0 0 14px;
 }
 
@@ -220,7 +191,37 @@ body {
   text-decoration: underline;
 }
 
+/* ===== MOBILE ===== */
 @media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .navbar nav a {
+    margin-left: 0;
+    margin-right: 14px;
+    font-size: 18px;
+  }
+
+  .navbar .logo {
+    font-size: 26px;
+  }
+
+  .intro h1 {
+    font-size: 38px;
+  }
+
+  .intro p,
+  .about p {
+    font-size: 18px;
+  }
+
   .project-item {
     grid-template-columns: 1fr;
     gap: 18px;
