@@ -279,14 +279,5 @@ body {
   .platform-item {
     grid-template-columns: 1fr;
     gap: 16px;
-    margin-bottom: 28px;
-  }
-
-  .platform-content h2 {
-    font-size: 22px;
-  }
-
-  .platform-content li {
-    font-size: 17px;
   }
 }
